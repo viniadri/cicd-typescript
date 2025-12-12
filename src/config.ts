@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 type Config = {
-  db: DBConfigs;
+  db: DBConfig;
   api: APIConfig;
 };
 
