@@ -1,13 +1,13 @@
 import { describe, expect, test } from "vitest";
 
 const person = {
-  isActive: true,
+  isActive: false,
   age: 32,
 };
 
 describe("person", () => {
   test("person is defined", () => {
-    expect(persons).toBeDefined();
+    expect(person).toBeDefined();
   });
 
   test("is active", () => {
